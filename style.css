@@ -1,0 +1,170 @@
+body {
+  font-family: "PT Mono", monospace;
+  color: #7b6785;
+}
+
+h1,
+h2 {
+  line-height: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #9e4bc7;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #7b6785;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 40%;
+  padding: 10px 10px 0px;
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+}
+
+input {
+  font-size: 16px;
+  font-style: italic;
+  opacity: 0.8;
+  line-height: 20px;
+  position: relative;
+  right: 0px;
+}
+
+.user-city {
+  margin: 20px 20px 50px;
+}
+
+.temp {
+  margin: 10px 16px 50px;
+}
+
+.form-group {
+  margin: 20px 10px;
+  position: relative;
+  right: -5px;
+}
+
+.btn-primary {
+  margin: 20px 0px;
+  position: relative;
+  right: 22px;
+  background: #9e4bc7;
+  border: 1px solid #9e4bc7;
+}
+
+.city {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #9e4bc7;
+}
+
+.city-details {
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 20px;
+}
+
+.temp {
+  margin: 10px 20px 50px;
+}
+
+.temperature {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #9e4bc7;
+}
+
+#celsius-link {
+  position: relative;
+  left: -10px;
+  top: -30px;
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.line {
+  position: relative;
+  left: -8px;
+  top: -30px;
+  font-size: 18px;
+  opacity: 0.8;
+  line-height: 20px;
+}
+
+#fahrenheit-link {
+  position: relative;
+  left: -10px;
+  top: -30px;
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.temp-details {
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.8;
+  position: relative;
+  left: 38px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 600;
+  color: #7b6785;
+  opacity: 08;
+  margin: 5px;
+}
+
+.card-temp {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0 auto;
+  color: #7b6785;
+}
+
+.sun-temp-icon {
+  font-size: 48px;
+  color: #ebd548;
+}
+
+.cloud-icon,
+.rain-icon,
+.sun-icon,
+.sun-rain-icon,
+.cloud-sun-icon {
+  font-size: 20px;
+  margin: 0 auto;
+  color: #9e4bc7;
+}
+
+.row .last-part {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.main-card {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.footer {
+  text-align: center;
+  margin: 120px 0;
+  font-style: italic;
+}
